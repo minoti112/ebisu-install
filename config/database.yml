@@ -23,7 +23,11 @@ default: &default
 
 development:
   <<: *default
-  database: ebisu-install_development
+  database: ebisu-install
+  host: localhost
+  port: '5432'
+  username: postgres
+  password: postgres
 
   # The specified database role being used to connect to postgres.
   # To create additional roles in postgres see `$ createuser --help`.
@@ -58,6 +62,10 @@ development:
 test:
   <<: *default
   database: ebisu-install_test
+  host: localhost
+  port: '5432'
+  username: postgres
+  password: postgres
 
 # As with config/secrets.yml, you never want to store sensitive information,
 # like your database password, in your source code. If your source code is
@@ -80,6 +88,8 @@ test:
 #
 production:
   <<: *default
-  database: ebisu-install_production
-  username: ebisu-install
-  password: <%= ENV['EBISU-INSTALL_DATABASE_PASSWORD'] %>
+  database: <%= ENV['DB_NAME'] %>
+  username: <%= ENV['DB_USERNAME'] %>
+  password: <%= ENV['DB_PASSWORD'] %>
+  host:     <%= ENV['DB_HOSTNAME'] %>
+  port:     <%= ENV['DB_PORT'] %>

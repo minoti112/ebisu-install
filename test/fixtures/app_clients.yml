@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  app_client_id: 1
+  clinet_no: MyString
+  refresh_token: MyString
+  created_user: 1
+  updated_user: 1
+
+two:
+  app_client_id: 1
+  clinet_no: MyString
+  refresh_token: MyString
+  created_user: 1
+  updated_user: 1
