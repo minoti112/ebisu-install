@@ -25,7 +25,5 @@ module EbisuInstall
     
     config.assets.paths << "#{Rails}/vender/assets/fonts"
 
-    config.serve_static_assets = true
-
   end
 end
