@@ -1,12 +1,18 @@
 <div class="starter-template">
 
-	<form class="form-signin">
-		<!-- <h2 class="form-signin-heading">Please input EBISU_NO</h2> -->
-		<input type="text" id="CLIENT_NO" class="form-control" placeholder="EBISU_NO" required="" autofocus="">
-		<br />
-		<button class="btn btn-lg btn-primary btn-block" type="submit">
-			install
-		</button>
-	</form>
+	<!-- <h2 class="form-signin-heading">Please input EBISU_NO</h2> -->
+	<%= form_tag( { controller: 'install', action: 'index'}, class: 'form-signin') do %>
+	<%= text_field_tag 'ebisu_no', '', class: 'form-control', placeholder: "ebisu_no", required: "", autofocus: "" %>
+	<br />
+	<%= select_tag 'domain', 
+		options_for_select({'localhost' => '127.0.0.1', 
+		'develop.ebisumart.com' => 'develop.ebisumart.com', 
+		'demo.ebisumart.com' => 'demo.ebisumart.com', 
+		'admin.ebisumart.com' => 'admin.ebisumart.com'
+		}, 0), class: 'form-control' %>
+	<br />
+	<%= submit_tag 'install', class: 'btn btn-lg btn-primary btn-block' %>
+
+	<% end %>
 
 </div>

@@ -1012,3 +1012,1023 @@ Completed 200 OK in 43ms (Views: 41.9ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/assets/bootstrap.min.css.map" for ::1 at 2016-04-30 23:02:42 +0900
+
+
+Started GET "/" for ::1 at 2016-05-01 00:02:30 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 804ms (Views: 767.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-66fe84b79c6d5db31355296a8c9627d232721fe3ac3c31f3554ccc7e999279b6.css?body=1" for ::1 at 2016-05-01 00:02:32 +0900
+
+
+Started GET "/assets/mobile.self-02982906bc7e181de158e8cd26dc1de1fc919f19ab104c9f70e7ea5bd23e733e.css?body=1" for ::1 at 2016-05-01 00:02:32 +0900
+
+
+Started GET "/assets/welcome.self-e9c778090c00a15931a65032b75c8e7e9027afabda48e143212bb5f6803cc3f0.css?body=1" for ::1 at 2016-05-01 00:02:32 +0900
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-05-01 00:02:32 +0900
+
+
+Started GET "/assets/application.self-860170c7ab1ca088027e93d68592059edd583aacf6fd47eea1c1c5332b5a9db9.css?body=1" for ::1 at 2016-05-01 00:02:32 +0900
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-01 00:02:32 +0900
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for ::1 at 2016-05-01 00:02:32 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-01 00:02:32 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-01 00:02:32 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-01 00:02:32 +0900
+
+
+Started GET "/assets/bootstrap.min.css.map" for ::1 at 2016-05-01 00:02:32 +0900
+
+
+Started GET "/" for ::1 at 2016-05-01 00:04:15 +0900
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 164ms (Views: 162.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for ::1 at 2016-05-01 00:04:15 +0900
+
+
+Started GET "/" for ::1 at 2016-05-01 00:05:21 +0900
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 94ms (Views: 91.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-5af4bb76ffac6a29dd313aed67a7a730dd04bf71fd022c1671460c761adfce95.css?body=1" for ::1 at 2016-05-01 00:05:21 +0900
+
+
+Started GET "/assets/bootstrap.min.css.map" for ::1 at 2016-05-01 00:05:21 +0900
+
+
+Started GET "/" for ::1 at 2016-05-01 00:06:36 +0900
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 167ms (Views: 166.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-a489fec6428d3901a188fd231c084ac8490a88c3f85ccbee8fad2c77f0449412.css?body=1" for ::1 at 2016-05-01 00:06:36 +0900
+
+
+Started GET "/assets/bootstrap.min.css.map" for ::1 at 2016-05-01 00:06:36 +0900
+
+
+Started GET "/" for ::1 at 2016-05-01 00:07:00 +0900
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 36ms (Views: 35.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for ::1 at 2016-05-01 00:07:01 +0900
+
+
+Started GET "/" for ::1 at 2016-05-01 00:09:41 +0900
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 40ms (Views: 39.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for ::1 at 2016-05-01 00:09:41 +0900
+
+
+Started GET "/" for ::1 at 2016-05-01 00:10:30 +0900
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 34ms (Views: 33.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for ::1 at 2016-05-01 00:10:30 +0900
+
+
+Started GET "/?domain=127.0.0.1" for ::1 at 2016-05-01 00:10:52 +0900
+Processing by WelcomeController#index as HTML
+  Parameters: {"domain"=>"127.0.0.1"}
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 47ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for ::1 at 2016-05-01 00:10:52 +0900
+
+
+Started GET "/" for ::1 at 2016-05-01 00:11:17 +0900
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 44ms (Views: 43.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for ::1 at 2016-05-01 00:11:18 +0900
+
+
+Started POST "/install" for ::1 at 2016-05-01 00:11:21 +0900
+
+ActionController::RoutingError (No route matches [POST] "/install"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (13.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (67.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (44.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (88.8ms)
+
+
+Started GET "/install" for ::1 at 2016-05-01 00:12:10 +0900
+
+ActionController::RoutingError (No route matches [GET] "/install"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (37.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (30.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (163.6ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for ::1 at 2016-05-01 00:12:31 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/" for ::1 at 2016-05-01 00:12:32 +0900
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 405ms (Views: 330.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for ::1 at 2016-05-01 00:12:34 +0900
+
+
+Started POST "/install" for ::1 at 2016-05-01 00:12:36 +0900
+Processing by InstallController#index as HTML
+  Parameters: {"domain"=>"127.0.0.1"}
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 2ms (ActiveRecord: 0.0ms)
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  actionpack (4.2.6) lib/action_controller/metal/request_forgery_protection.rb:181:in `handle_unverified_request'
+  actionpack (4.2.6) lib/action_controller/metal/request_forgery_protection.rb:209:in `handle_unverified_request'
+  actionpack (4.2.6) lib/action_controller/metal/request_forgery_protection.rb:204:in `verify_authenticity_token'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:432:in `block in make_lambda'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:164:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:164:in `block in halting'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:504:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:504:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:504:in `each'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:504:in `call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:92:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_process_action_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `block in instrument'
+  activesupport (4.2.6) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (4.2.6) lib/active_support/notifications.rb:164:in `instrument'
+  actionpack (4.2.6) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  actionpack (4.2.6) lib/action_controller/metal/params_wrapper.rb:250:in `process_action'
+  activerecord (4.2.6) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (4.2.6) lib/abstract_controller/base.rb:137:in `process'
+  actionview (4.2.6) lib/action_view/rendering.rb:30:in `process'
+  actionpack (4.2.6) lib/action_controller/metal.rb:196:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  actionpack (4.2.6) lib/action_controller/metal.rb:237:in `block in action'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `call'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:74:in `dispatch'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:43:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:43:in `block in serve'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `each'
+  actionpack (4.2.6) lib/action_dispatch/journey/router.rb:30:in `serve'
+  actionpack (4.2.6) lib/action_dispatch/routing/route_set.rb:817:in `call'
+  rack (1.6.4) lib/rack/etag.rb:24:in `call'
+  rack (1.6.4) lib/rack/conditionalget.rb:38:in `call'
+  rack (1.6.4) lib/rack/head.rb:13:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/flash.rb:260:in `call'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.6.4) lib/rack/session/abstract/id.rb:220:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/cookies.rb:560:in `call'
+  activerecord (4.2.6) lib/active_record/query_cache.rb:36:in `call'
+  activerecord (4.2.6) lib/active_record/connection_adapters/abstract/connection_pool.rb:653:in `call'
+  activerecord (4.2.6) lib/active_record/migration.rb:377:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.6) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.6) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (55.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (166.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (229.1ms)
+
+
+Started GET "/" for ::1 at 2016-05-01 00:37:36 +0900
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (33.5ms)
+Completed 200 OK in 116ms (Views: 108.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for ::1 at 2016-05-01 00:37:37 +0900
+
+
+Started GET "/" for ::1 at 2016-05-01 00:43:26 +0900
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 48ms (Views: 45.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for ::1 at 2016-05-01 00:43:27 +0900
+
+
+Started GET "/" for ::1 at 2016-05-01 00:45:36 +0900
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (6.1ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/Users/minoti/workspace/ebisu-install/app/views/welcome/index.html.erb:9: no .<digit> floating literal anymore; put 0 before dot
+		{'localhost' => 127.0.0.1, 
+		                      ^
+/Users/minoti/workspace/ebisu-install/app/views/welcome/index.html.erb:9: syntax error, unexpected tFLOAT, expecting '('
+		{'localhost' => 127.0.0.1, 
+		                         ^
+/Users/minoti/workspace/ebisu-install/app/views/welcome/index.html.erb:10: syntax error, unexpected =>, expecting ')'
+		'develop.ebisumart.com' => develop.ebisumart.com, 
+		                          ^
+/Users/minoti/workspace/ebisu-install/app/views/welcome/index.html.erb:11: syntax error, unexpected =>, expecting :: or '[' or '.'
+		'demo.ebisumart.com' => demo.ebisumart.com, 
+		                       ^
+/Users/minoti/workspace/ebisu-install/app/views/welcome/index.html.erb:12: syntax error, unexpected =>, expecting :: or '[' or '.'
+		'admin.ebisumart.com' => admin.ebisumart.com
+		                        ^
+/Users/minoti/workspace/ebisu-install/app/views/welcome/index.html.erb:13: syntax error, unexpected '}', expecting ')'
+		}, class: 'form-control' );@output_buffer.safe_append='
+		 ^):
+  app/views/welcome/index.html.erb:9: no .<digit> floating literal anymore; put 0 before dot
+  app/views/welcome/index.html.erb:9: syntax error, unexpected tFLOAT, expecting '('
+  app/views/welcome/index.html.erb:10: syntax error, unexpected =>, expecting ')'
+  app/views/welcome/index.html.erb:11: syntax error, unexpected =>, expecting :: or '[' or '.'
+  app/views/welcome/index.html.erb:12: syntax error, unexpected =>, expecting :: or '[' or '.'
+  app/views/welcome/index.html.erb:13: syntax error, unexpected '}', expecting ')'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (18.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (53.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (28.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (180.3ms)
+
+
+Started GET "/" for ::1 at 2016-05-01 00:45:50 +0900
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/mobile.self-02982906bc7e181de158e8cd26dc1de1fc919f19ab104c9f70e7ea5bd23e733e.css?body=1" for ::1 at 2016-05-01 00:45:51 +0900
+
+
+Started GET "/assets/welcome.self-e9c778090c00a15931a65032b75c8e7e9027afabda48e143212bb5f6803cc3f0.css?body=1" for ::1 at 2016-05-01 00:45:51 +0900
+
+
+Started GET "/assets/application.self-860170c7ab1ca088027e93d68592059edd583aacf6fd47eea1c1c5332b5a9db9.css?body=1" for ::1 at 2016-05-01 00:45:51 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-01 00:45:51 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-01 00:45:51 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-01 00:45:51 +0900
+
+
+Started GET "/assets/bootstrap.min.self-66fe84b79c6d5db31355296a8c9627d232721fe3ac3c31f3554ccc7e999279b6.css?body=1" for ::1 at 2016-05-01 00:45:51 +0900
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-01 00:45:51 +0900
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for ::1 at 2016-05-01 00:45:51 +0900
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-05-01 00:45:51 +0900
+
+
+Started GET "/assets/bootstrap.min.css.map" for ::1 at 2016-05-01 00:45:51 +0900
+
+
+Started POST "/install" for ::1 at 2016-05-01 00:45:56 +0900
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iZvZixsiIeDUEHIwBOblICizXBtHC7ImlHnEwiMkoU3v09oCvU6s+PSYfDy1wyS2reA0/VYF9jw+0n/bf+FurA==", "ebisu_no"=>"", "commit"=>"install"}
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 44ms (Views: 43.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for ::1 at 2016-05-01 00:45:57 +0900
+
+
+Started POST "/install" for ::1 at 2016-05-01 00:45:58 +0900
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KdnRfMaygEu6nKp455Q8rYJWfQpPBWlPQhcoihK4dmNPkdL1YN4NU5oUpHRWsf07BwUV7F4LLVXovJOTTn25gg==", "ebisu_no"=>"", "commit"=>"install"}
+  Rendered welcome/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 48ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for ::1 at 2016-05-01 00:45:58 +0900
+
+
+Started GET "/install" for ::1 at 2016-05-01 00:47:18 +0900
+
+ActionController::RoutingError (No route matches [GET] "/install"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (163.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (2.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (30.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (70.9ms)
+
+
+Started GET "/" for ::1 at 2016-05-01 00:47:24 +0900
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 37ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for ::1 at 2016-05-01 00:47:24 +0900
+
+
+Started GET "/" for ::1 at 2016-05-01 00:47:53 +0900
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 35ms (Views: 33.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.self-66fe84b79c6d5db31355296a8c9627d232721fe3ac3c31f3554ccc7e999279b6.css?body=1" for ::1 at 2016-05-01 00:47:53 +0900
+
+
+Started GET "/assets/mobile.self-02982906bc7e181de158e8cd26dc1de1fc919f19ab104c9f70e7ea5bd23e733e.css?body=1" for ::1 at 2016-05-01 00:47:53 +0900
+
+
+Started GET "/assets/welcome.self-e9c778090c00a15931a65032b75c8e7e9027afabda48e143212bb5f6803cc3f0.css?body=1" for ::1 at 2016-05-01 00:47:53 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-01 00:47:53 +0900
+
+
+Started GET "/assets/application.self-860170c7ab1ca088027e93d68592059edd583aacf6fd47eea1c1c5332b5a9db9.css?body=1" for ::1 at 2016-05-01 00:47:53 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-01 00:47:53 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-01 00:47:53 +0900
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for ::1 at 2016-05-01 00:47:53 +0900
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-01 00:47:53 +0900
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-05-01 00:47:53 +0900
+
+
+Started GET "/assets/bootstrap.min.css.map" for ::1 at 2016-05-01 00:47:53 +0900
+
+
+Started GET "/" for ::1 at 2016-05-01 00:48:09 +0900
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 36ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/mobile.self-02982906bc7e181de158e8cd26dc1de1fc919f19ab104c9f70e7ea5bd23e733e.css?body=1" for ::1 at 2016-05-01 00:48:09 +0900
+
+
+Started GET "/assets/welcome.self-e9c778090c00a15931a65032b75c8e7e9027afabda48e143212bb5f6803cc3f0.css?body=1" for ::1 at 2016-05-01 00:48:09 +0900
+
+
+Started GET "/assets/bootstrap.min.self-66fe84b79c6d5db31355296a8c9627d232721fe3ac3c31f3554ccc7e999279b6.css?body=1" for ::1 at 2016-05-01 00:48:09 +0900
+
+
+Started GET "/assets/application.self-860170c7ab1ca088027e93d68592059edd583aacf6fd47eea1c1c5332b5a9db9.css?body=1" for ::1 at 2016-05-01 00:48:09 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-05-01 00:48:09 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-05-01 00:48:09 +0900
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for ::1 at 2016-05-01 00:48:09 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-05-01 00:48:09 +0900
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-05-01 00:48:09 +0900
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2016-05-01 00:48:09 +0900
+
+
+Started GET "/assets/bootstrap.min.css.map" for ::1 at 2016-05-01 00:48:09 +0900
+
+
+Started GET "/" for ::1 at 2016-05-01 00:49:33 +0900
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 35ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for ::1 at 2016-05-01 00:49:33 +0900
+
+
+Started GET "/auth" for 127.0.0.1 at 2016-05-01 01:33:25 +0900
+
+ActionController::RoutingError (No route matches [GET] "/auth"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (52.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (29.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (61.7ms)
+
+
+Started GET "/auth" for 127.0.0.1 at 2016-05-01 01:33:57 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (No route matches [GET] "/auth"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (14.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (34.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (103.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (47.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (95.5ms)
+
+
+Started GET "/auth" for 127.0.0.1 at 2016-05-01 01:34:32 +0900
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AuthController#index as HTML
+Completed 500 Internal Server Error in 49ms (ActiveRecord: 0.0ms)
+
+ActionView::MissingTemplate (Missing template auth/index, application/index with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/minoti/workspace/ebisu-install/app/views"
+):
+  app/controllers/auth_controller.rb:5:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (57.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (49.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (96.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-01 01:35:56 +0900
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 779ms (Views: 777.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/mobile.self-02982906bc7e181de158e8cd26dc1de1fc919f19ab104c9f70e7ea5bd23e733e.css?body=1" for 127.0.0.1 at 2016-05-01 01:35:57 +0900
+
+
+Started GET "/assets/welcome.self-e9c778090c00a15931a65032b75c8e7e9027afabda48e143212bb5f6803cc3f0.css?body=1" for 127.0.0.1 at 2016-05-01 01:35:57 +0900
+
+
+Started GET "/assets/application.self-860170c7ab1ca088027e93d68592059edd583aacf6fd47eea1c1c5332b5a9db9.css?body=1" for 127.0.0.1 at 2016-05-01 01:35:57 +0900
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 127.0.0.1 at 2016-05-01 01:35:57 +0900
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 127.0.0.1 at 2016-05-01 01:35:57 +0900
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-05-01 01:35:57 +0900
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-05-01 01:35:57 +0900
+
+
+Started GET "/assets/bootstrap.min.self-d475868eedd65d9ab19f96e8574a2c8ce91ba7d64b8bbfa47cd55591a956ed67.js?body=1" for 127.0.0.1 at 2016-05-01 01:35:57 +0900
+
+
+Started GET "/assets/bootstrap.min.self-66fe84b79c6d5db31355296a8c9627d232721fe3ac3c31f3554ccc7e999279b6.css?body=1" for 127.0.0.1 at 2016-05-01 01:35:57 +0900
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 127.0.0.1 at 2016-05-01 01:35:57 +0900
+
+
+Started GET "/assets/bootstrap.min.css.map" for 127.0.0.1 at 2016-05-01 01:35:57 +0900
+
+
+Started POST "/install" for 127.0.0.1 at 2016-05-01 01:36:08 +0900
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YULIfvk8zdSNmvEtPhvsQa2Yo2YOqSjn+hrnCpgg8bB1vD0iqKOW2dXkNdHGV0nf8thdTXq1psAjtBrcmB56mg==", "ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "commit"=>"install"}
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+NameError (undefined local variable or method `domain' for #<InstallController:0x007fca400603a8>):
+  app/controllers/install_controller.rb:5:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (53.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (33.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (78.2ms)
+
+
+Started GET "/install" for 127.0.0.1 at 2016-05-01 01:36:50 +0900
+
+ActionController::RoutingError (No route matches [GET] "/install"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (115.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (159.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (45.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (76.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-01 01:36:54 +0900
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 44ms (Views: 43.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for 127.0.0.1 at 2016-05-01 01:36:55 +0900
+
+
+Started POST "/install" for 127.0.0.1 at 2016-05-01 01:37:01 +0900
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WUEOsExrwi7bT9yU8NBJkosgDJzuF/FA3S2j6ldKGeJNv/vsHfSZI4MxGGgInOwM1GDyt5oLf2cEg148V3SSyA==", "ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "commit"=>"install"}
+Redirected to https://develop.ebisumart.com/admin_authorize.html      ?scope=item privacy system      &response_type=code      &redirect_uri=http://localhost:3000/auth      &client_id=test_takayama      &state=
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/install" for 127.0.0.1 at 2016-05-01 01:37:01 +0900
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WUEOsExrwi7bT9yU8NBJkosgDJzuF/FA3S2j6ldKGeJNv/vsHfSZI4MxGGgInOwM1GDyt5oLf2cEg148V3SSyA==", "ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "commit"=>"install"}
+Redirected to https://develop.ebisumart.com/admin_authorize.html      ?scope=item privacy system      &response_type=code      &redirect_uri=http://localhost:3000/auth      &client_id=test_takayama      &state=
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-01 01:37:39 +0900
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 37ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for 127.0.0.1 at 2016-05-01 01:37:40 +0900
+
+
+Started POST "/install" for 127.0.0.1 at 2016-05-01 01:37:44 +0900
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ge5+Zy9LuVHbC/CRdcEqPDW9jMHRLI+u3DiPoKCo3+mVEIs7ftTiXIN1NG2NjY+iav1y6qUwAYkFlnJ2oJZUww==", "ebisu_no"=>"ewr", "domain"=>"127.0.0.1", "commit"=>"install"}
+Redirected to https://127.0.0.1/admin_authorize.html      ?scope=item privacy system      &response_type=code      &redirect_uri=http://localhost:3000/auth      &client_id=ewr      &state=
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/install" for 127.0.0.1 at 2016-05-01 01:37:44 +0900
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ge5+Zy9LuVHbC/CRdcEqPDW9jMHRLI+u3DiPoKCo3+mVEIs7ftTiXIN1NG2NjY+iav1y6qUwAYkFlnJ2oJZUww==", "ebisu_no"=>"ewr", "domain"=>"127.0.0.1", "commit"=>"install"}
+Redirected to https://127.0.0.1/admin_authorize.html      ?scope=item privacy system      &response_type=code      &redirect_uri=http://localhost:3000/auth      &client_id=ewr      &state=
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/install" for 127.0.0.1 at 2016-05-01 01:37:45 +0900
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ge5+Zy9LuVHbC/CRdcEqPDW9jMHRLI+u3DiPoKCo3+mVEIs7ftTiXIN1NG2NjY+iav1y6qUwAYkFlnJ2oJZUww==", "ebisu_no"=>"ewr", "domain"=>"127.0.0.1", "commit"=>"install"}
+Redirected to https://127.0.0.1/admin_authorize.html      ?scope=item privacy system      &response_type=code      &redirect_uri=http://localhost:3000/auth      &client_id=ewr      &state=
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/install" for 127.0.0.1 at 2016-05-01 01:37:45 +0900
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ge5+Zy9LuVHbC/CRdcEqPDW9jMHRLI+u3DiPoKCo3+mVEIs7ftTiXIN1NG2NjY+iav1y6qUwAYkFlnJ2oJZUww==", "ebisu_no"=>"ewr", "domain"=>"127.0.0.1", "commit"=>"install"}
+Redirected to https://127.0.0.1/admin_authorize.html      ?scope=item privacy system      &response_type=code      &redirect_uri=http://localhost:3000/auth      &client_id=ewr      &state=
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/install" for 127.0.0.1 at 2016-05-01 01:37:45 +0900
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ge5+Zy9LuVHbC/CRdcEqPDW9jMHRLI+u3DiPoKCo3+mVEIs7ftTiXIN1NG2NjY+iav1y6qUwAYkFlnJ2oJZUww==", "ebisu_no"=>"ewr", "domain"=>"127.0.0.1", "commit"=>"install"}
+Redirected to https://127.0.0.1/admin_authorize.html      ?scope=item privacy system      &response_type=code      &redirect_uri=http://localhost:3000/auth      &client_id=ewr      &state=
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-05-01 01:39:26 +0900
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 163ms (Views: 162.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for 127.0.0.1 at 2016-05-01 01:39:27 +0900
+
+
+Started POST "/install" for 127.0.0.1 at 2016-05-01 01:39:32 +0900
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N7JzdZvVObBziRHiTMFTy72HseeO0Mv95gdhhrht7iwjTIYpykpivSv31R60jfZV4sdPzPrMRdo/qZxQuFNlBg==", "ebisu_no"=>"rgeraerwe", "domain"=>"develop.ebisumart.com", "commit"=>"install"}
+Redirected to https://develop.ebisumart.com/rgeraerwe/admin_authorize.html      ?scope=item privacy system      &response_type=code      &redirect_uri=http://localhost:3000/auth      &client_id=rgeraerwe      &state=
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/install" for 127.0.0.1 at 2016-05-01 01:39:33 +0900
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N7JzdZvVObBziRHiTMFTy72HseeO0Mv95gdhhrht7iwjTIYpykpivSv31R60jfZV4sdPzPrMRdo/qZxQuFNlBg==", "ebisu_no"=>"rgeraerwe", "domain"=>"develop.ebisumart.com", "commit"=>"install"}
+Redirected to https://develop.ebisumart.com/rgeraerwe/admin_authorize.html      ?scope=item privacy system      &response_type=code      &redirect_uri=http://localhost:3000/auth      &client_id=rgeraerwe      &state=
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/install" for 127.0.0.1 at 2016-05-01 01:39:33 +0900
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N7JzdZvVObBziRHiTMFTy72HseeO0Mv95gdhhrht7iwjTIYpykpivSv31R60jfZV4sdPzPrMRdo/qZxQuFNlBg==", "ebisu_no"=>"rgeraerwe", "domain"=>"develop.ebisumart.com", "commit"=>"install"}
+Redirected to https://develop.ebisumart.com/rgeraerwe/admin_authorize.html      ?scope=item privacy system      &response_type=code      &redirect_uri=http://localhost:3000/auth      &client_id=rgeraerwe      &state=
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/install" for 127.0.0.1 at 2016-05-01 01:39:33 +0900
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N7JzdZvVObBziRHiTMFTy72HseeO0Mv95gdhhrht7iwjTIYpykpivSv31R60jfZV4sdPzPrMRdo/qZxQuFNlBg==", "ebisu_no"=>"rgeraerwe", "domain"=>"develop.ebisumart.com", "commit"=>"install"}
+Redirected to https://develop.ebisumart.com/rgeraerwe/admin_authorize.html      ?scope=item privacy system      &response_type=code      &redirect_uri=http://localhost:3000/auth      &client_id=rgeraerwe      &state=
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for 127.0.0.1 at 2016-05-01 01:41:22 +0900
+
+
+Started POST "/install" for 127.0.0.1 at 2016-05-01 01:41:25 +0900
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N7JzdZvVObBziRHiTMFTy72HseeO0Mv95gdhhrht7iwjTIYpykpivSv31R60jfZV4sdPzPrMRdo/qZxQuFNlBg==", "ebisu_no"=>"rgeraerwe", "domain"=>"develop.ebisumart.com", "commit"=>"install"}
+Redirected to https://develop.ebisumart.com/rgeraerweq/admin_authorize.html?scope=item privacy system&response_type=code&redirect_uri=http://localhost:3000/auth&client_id=rgeraerwe&state=
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/install" for 127.0.0.1 at 2016-05-01 01:41:25 +0900
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N7JzdZvVObBziRHiTMFTy72HseeO0Mv95gdhhrht7iwjTIYpykpivSv31R60jfZV4sdPzPrMRdo/qZxQuFNlBg==", "ebisu_no"=>"rgeraerwe", "domain"=>"develop.ebisumart.com", "commit"=>"install"}
+Redirected to https://develop.ebisumart.com/rgeraerweq/admin_authorize.html?scope=item privacy system&response_type=code&redirect_uri=http://localhost:3000/auth&client_id=rgeraerwe&state=
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/install" for 127.0.0.1 at 2016-05-01 01:41:25 +0900
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N7JzdZvVObBziRHiTMFTy72HseeO0Mv95gdhhrht7iwjTIYpykpivSv31R60jfZV4sdPzPrMRdo/qZxQuFNlBg==", "ebisu_no"=>"rgeraerwe", "domain"=>"develop.ebisumart.com", "commit"=>"install"}
+Redirected to https://develop.ebisumart.com/rgeraerweq/admin_authorize.html?scope=item privacy system&response_type=code&redirect_uri=http://localhost:3000/auth&client_id=rgeraerwe&state=
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started POST "/install" for 127.0.0.1 at 2016-05-01 01:41:25 +0900
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N7JzdZvVObBziRHiTMFTy72HseeO0Mv95gdhhrht7iwjTIYpykpivSv31R60jfZV4sdPzPrMRdo/qZxQuFNlBg==", "ebisu_no"=>"rgeraerwe", "domain"=>"develop.ebisumart.com", "commit"=>"install"}
+Redirected to https://develop.ebisumart.com/rgeraerweq/admin_authorize.html?scope=item privacy system&response_type=code&redirect_uri=http://localhost:3000/auth&client_id=rgeraerwe&state=
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for 127.0.0.1 at 2016-05-01 01:42:14 +0900
+
+
+Started POST "/install" for 127.0.0.1 at 2016-05-01 01:42:15 +0900
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N7JzdZvVObBziRHiTMFTy72HseeO0Mv95gdhhrht7iwjTIYpykpivSv31R60jfZV4sdPzPrMRdo/qZxQuFNlBg==", "ebisu_no"=>"rgeraerwe", "domain"=>"develop.ebisumart.com", "commit"=>"install"}
+Redirected to https://develop.ebisumart.com/rgeraerweq/admin_authorize.html?scope=itemprivacysystem&response_type=code&redirect_uri=http://localhost:3000/auth&client_id=rgeraerwe&state=
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for 127.0.0.1 at 2016-05-01 01:47:12 +0900
+
+
+Started POST "/install" for 127.0.0.1 at 2016-05-01 01:47:19 +0900
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N7JzdZvVObBziRHiTMFTy72HseeO0Mv95gdhhrht7iwjTIYpykpivSv31R60jfZV4sdPzPrMRdo/qZxQuFNlBg==", "ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "commit"=>"install"}
+Redirected to https://develop.ebisumart.com/test_takayamaq/admin_authorize.html?scope=item%20privacy%20system&response_type=code&redirect_uri=http://localhost:3000/auth&client_id=test_takayama&state=
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for 127.0.0.1 at 2016-05-01 01:47:27 +0900
+
+
+Started POST "/install" for 127.0.0.1 at 2016-05-01 01:47:38 +0900
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N7JzdZvVObBziRHiTMFTy72HseeO0Mv95gdhhrht7iwjTIYpykpivSv31R60jfZV4sdPzPrMRdo/qZxQuFNlBg==", "ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "commit"=>"install"}
+Redirected to https://develop.ebisumart.com/test_takayama/admin_authorize.html?scope=item%20privacy%20system&response_type=code&redirect_uri=http://localhost:3000/auth&client_id=test_takayama&state=
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for 127.0.0.1 at 2016-05-01 01:50:23 +0900
+
+
+Started POST "/install" for 127.0.0.1 at 2016-05-01 01:50:26 +0900
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N7JzdZvVObBziRHiTMFTy72HseeO0Mv95gdhhrht7iwjTIYpykpivSv31R60jfZV4sdPzPrMRdo/qZxQuFNlBg==", "ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "commit"=>"install"}
+Redirected to https://develop.ebisumart.com/test_takayama/admin_authorize.html?scope=item%20privacy%20system&response_type=code&redirect_uri=http://localhost:3000/auth&client_id=EBISU_INSTALL&state=
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for 127.0.0.1 at 2016-05-01 01:50:42 +0900
+
+
+Started POST "/install" for 127.0.0.1 at 2016-05-01 01:50:52 +0900
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N7JzdZvVObBziRHiTMFTy72HseeO0Mv95gdhhrht7iwjTIYpykpivSv31R60jfZV4sdPzPrMRdo/qZxQuFNlBg==", "ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "commit"=>"install"}
+Redirected to https://develop.ebisumart.com/test_takayama/admin_authorize.html?scope=item%20privacy%20system&response_type=code&redirect_uri=https://localhost:3000/auth&client_id=EBISU_INSTALL&state=
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for 127.0.0.1 at 2016-05-01 01:51:18 +0900
+
+
+Started POST "/install" for 127.0.0.1 at 2016-05-01 01:51:20 +0900
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N7JzdZvVObBziRHiTMFTy72HseeO0Mv95gdhhrht7iwjTIYpykpivSv31R60jfZV4sdPzPrMRdo/qZxQuFNlBg==", "ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "commit"=>"install"}
+Redirected to https://develop.ebisumart.com/test_takayama/admin_authorize.html?scope=item%20privacy%20system&response_type=code&redirect_uri=https://ebisu-install.herokuapp.com/auth&client_id=EBISU_INSTALL&state=
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for 127.0.0.1 at 2016-05-01 01:52:04 +0900
+
+
+Started POST "/install" for 127.0.0.1 at 2016-05-01 01:52:06 +0900
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N7JzdZvVObBziRHiTMFTy72HseeO0Mv95gdhhrht7iwjTIYpykpivSv31R60jfZV4sdPzPrMRdo/qZxQuFNlBg==", "ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "commit"=>"install"}
+Redirected to https://develop.ebisumart.com/test_takayama/admin_authorize.html?scope=item%20privacy%20system&response_type=code&redirect_uri=https://ebisu-install.herokuapp.com/auth&client_id=EBISU_INSTALL&state=
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
