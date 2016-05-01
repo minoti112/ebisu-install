@@ -3492,3 +3492,286 @@ Processing by AuthController#index as HTML
 {"error"=>"invalid_grant"}
   Rendered auth/index.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 370ms (Views: 64.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 153.229.197.147 at 2016-05-01 19:48:06 +0900
+Cannot render console from 153.229.197.147! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 1144ms (Views: 1104.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for 153.229.197.147 at 2016-05-01 19:48:08 +0900
+Cannot render console from 153.229.197.147! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/install" for 153.229.197.147 at 2016-05-01 19:48:14 +0900
+Cannot render console from 153.229.197.147! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RYwsp5NPkUqtJKxWZmFkhWltUDJds2JeZjHvc9yC6jonWQ4haVAlHT7O3h1Efv+M75/lL5W3IK/YxP26xICZMg==", "ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "commit"=>"install"}
+Redirected to https://develop.ebisumart.com/test_takayama/admin_authorize.html?scope=item%20privacy%20system&response_type=code&redirect_uri=https://084d06e4.ngrok.io/auth?ebisu_no=test_takayama%26domain=develop.ebisumart.com&client_id=EBISU_INSTALL&state=90df95650a6eaff4ff3d8901c88f9c63
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for 153.229.197.147 at 2016-05-01 19:48:43 +0900
+Cannot render console from 153.229.197.147! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.min.css.map" for 153.229.197.147 at 2016-05-01 19:48:48 +0900
+Cannot render console from 153.229.197.147! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap.min.css.map" for 153.229.197.147 at 2016-05-01 19:48:50 +0900
+Cannot render console from 153.229.197.147! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/install" for 153.229.197.147 at 2016-05-01 19:48:51 +0900
+Cannot render console from 153.229.197.147! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RYwsp5NPkUqtJKxWZmFkhWltUDJds2JeZjHvc9yC6jonWQ4haVAlHT7O3h1Efv+M75/lL5W3IK/YxP26xICZMg==", "ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "commit"=>"install"}
+Redirected to https://develop.ebisumart.com/test_takayama/admin_authorize.html?scope=item%20privacy%20system&response_type=code&redirect_uri=https://084d06e4.ngrok.io/auth?ebisu_no=test_takayama%26domain=develop.ebisumart.com&client_id=EBISU_INSTALL&state=cd2d5376e9903fca86b46db882d92047
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?ebisu_no=test_takayama&domain=develop.ebisumart.com&code=46a3547d5035224aa854c09e786c547ca47&state=cd2d5376e9903fca86b46db882d92047" for 153.229.197.147 at 2016-05-01 19:53:55 +0900
+Cannot render console from 153.229.197.147! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AuthController#index as HTML
+  Parameters: {"ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "code"=>"46a3547d5035224aa854c09e786c547ca47", "state"=>"cd2d5376e9903fca86b46db882d92047"}
+{"ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "code"=>"46a3547d5035224aa854c09e786c547ca47", "state"=>"cd2d5376e9903fca86b46db882d92047", "controller"=>"auth", "action"=>"index"}
+{"error"=>"unauthorized_client"}
+Completed 500 Internal Server Error in 261ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `error' for {"error"=>"unauthorized_client"}:Hash):
+  app/controllers/auth_controller.rb:35:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (51.1ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for 153.229.197.147 at 2016-05-01 19:55:04 +0900
+Cannot render console from 153.229.197.147! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/install" for 153.229.197.147 at 2016-05-01 19:55:06 +0900
+Cannot render console from 153.229.197.147! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RYwsp5NPkUqtJKxWZmFkhWltUDJds2JeZjHvc9yC6jonWQ4haVAlHT7O3h1Efv+M75/lL5W3IK/YxP26xICZMg==", "ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "commit"=>"install"}
+Redirected to https://develop.ebisumart.com/test_takayama/admin_authorize.html?scope=item%20privacy%20system&response_type=code&redirect_uri=https://084d06e4.ngrok.io/auth?ebisu_no=test_takayama%26domain=develop.ebisumart.com&client_id=EBISU_INSTALL&state=98d6df7428bcde44dd9af884d1ba222c
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?ebisu_no=test_takayama&domain=develop.ebisumart.com&code=f7570dd03ff2827f4bdc1ccecd9c2063a48&state=98d6df7428bcde44dd9af884d1ba222c" for 153.229.197.147 at 2016-05-01 19:55:19 +0900
+Cannot render console from 153.229.197.147! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AuthController#index as HTML
+  Parameters: {"ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "code"=>"f7570dd03ff2827f4bdc1ccecd9c2063a48", "state"=>"98d6df7428bcde44dd9af884d1ba222c"}
+{"ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "code"=>"f7570dd03ff2827f4bdc1ccecd9c2063a48", "state"=>"98d6df7428bcde44dd9af884d1ba222c", "controller"=>"auth", "action"=>"index"}
+start logger
+{"error"=>"unauthorized_client"}
+end logger
+Completed 500 Internal Server Error in 351ms (ActiveRecord: 0.0ms)
+
+NoMethodError (undefined method `error' for {"error"=>"unauthorized_client"}:Hash):
+  app/controllers/auth_controller.rb:38:in `index'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (37.8ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for 153.229.197.147 at 2016-05-01 19:56:06 +0900
+Cannot render console from 153.229.197.147! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/install" for 153.229.197.147 at 2016-05-01 19:56:07 +0900
+Cannot render console from 153.229.197.147! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RYwsp5NPkUqtJKxWZmFkhWltUDJds2JeZjHvc9yC6jonWQ4haVAlHT7O3h1Efv+M75/lL5W3IK/YxP26xICZMg==", "ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "commit"=>"install"}
+Redirected to https://develop.ebisumart.com/test_takayama/admin_authorize.html?scope=item%20privacy%20system&response_type=code&redirect_uri=https://084d06e4.ngrok.io/auth?ebisu_no=test_takayama%26domain=develop.ebisumart.com&client_id=EBISU_INSTALL&state=c7281b303e3a4d9bdb0b3c20452809cd
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?ebisu_no=test_takayama&domain=develop.ebisumart.com&code=844164c9b46b297f669efebf9c8c7c8fa49&state=c7281b303e3a4d9bdb0b3c20452809cd" for 153.229.197.147 at 2016-05-01 19:56:15 +0900
+Cannot render console from 153.229.197.147! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AuthController#index as HTML
+  Parameters: {"ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "code"=>"844164c9b46b297f669efebf9c8c7c8fa49", "state"=>"c7281b303e3a4d9bdb0b3c20452809cd"}
+{"ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "code"=>"844164c9b46b297f669efebf9c8c7c8fa49", "state"=>"c7281b303e3a4d9bdb0b3c20452809cd", "controller"=>"auth", "action"=>"index"}
+start logger
+{"error"=>"unauthorized_client"}
+end logger
+  Rendered auth/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 298ms (Views: 51.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for 153.229.197.147 at 2016-05-01 19:57:46 +0900
+Cannot render console from 153.229.197.147! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/install" for 153.229.197.147 at 2016-05-01 19:57:48 +0900
+Cannot render console from 153.229.197.147! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RYwsp5NPkUqtJKxWZmFkhWltUDJds2JeZjHvc9yC6jonWQ4haVAlHT7O3h1Efv+M75/lL5W3IK/YxP26xICZMg==", "ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "commit"=>"install"}
+Redirected to https://develop.ebisumart.com/test_takayama/admin_authorize.html?scope=item%20privacy%20system&response_type=code&redirect_uri=https://084d06e4.ngrok.io/auth?ebisu_no=test_takayama%26domain=develop.ebisumart.com&client_id=EBISU_INSTALL&state=bca92f1c29abd9c6040a1e147702bfb8
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?ebisu_no=test_takayama&domain=develop.ebisumart.com&code=6593378f0b05914fa8562b43182df91ba50&state=bca92f1c29abd9c6040a1e147702bfb8" for 153.229.197.147 at 2016-05-01 19:57:56 +0900
+Cannot render console from 153.229.197.147! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AuthController#index as HTML
+  Parameters: {"ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "code"=>"6593378f0b05914fa8562b43182df91ba50", "state"=>"bca92f1c29abd9c6040a1e147702bfb8"}
+{"ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "code"=>"6593378f0b05914fa8562b43182df91ba50", "state"=>"bca92f1c29abd9c6040a1e147702bfb8", "controller"=>"auth", "action"=>"index"}
+start logger
+{"error"=>"unauthorized_client"}
+end logger
+  Rendered auth/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 528ms (Views: 163.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for 153.229.197.147 at 2016-05-01 19:59:38 +0900
+Cannot render console from 153.229.197.147! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/install" for 153.229.197.147 at 2016-05-01 20:01:07 +0900
+Cannot render console from 153.229.197.147! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RYwsp5NPkUqtJKxWZmFkhWltUDJds2JeZjHvc9yC6jonWQ4haVAlHT7O3h1Efv+M75/lL5W3IK/YxP26xICZMg==", "ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "commit"=>"install"}
+Redirected to https://develop.ebisumart.com/test_takayama/admin_authorize.html?scope=item%20privacy%20system&response_type=code&redirect_uri=https://084d06e4.ngrok.io/auth?ebisu_no=test_takayama%26domain=develop.ebisumart.com&client_id=EBISU_INSTALL&state=e4413bf29fef13ce018bfd215d9216e2
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?ebisu_no=test_takayama&domain=develop.ebisumart.com&code=6eee58f6155ba069fa73e52683695184a51&state=e4413bf29fef13ce018bfd215d9216e2" for 153.229.197.147 at 2016-05-01 20:01:17 +0900
+Cannot render console from 153.229.197.147! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AuthController#index as HTML
+  Parameters: {"ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "code"=>"6eee58f6155ba069fa73e52683695184a51", "state"=>"e4413bf29fef13ce018bfd215d9216e2"}
+{"ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "code"=>"6eee58f6155ba069fa73e52683695184a51", "state"=>"e4413bf29fef13ce018bfd215d9216e2", "controller"=>"auth", "action"=>"index"}
+start logger
+{"access_token"=>"04e3928151e8079839e8d4b9a5282a07a1", "refresh_token"=>"34be29246943f0b2ce831c7a51513705a1", "shop_id"=>"TEST_TAKAYAMA", "expires_in"=>86400}
+end logger
+  Rendered auth/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 344ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.5ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (10.4ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'app_clients'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.3ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (9.4ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'app_clients'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+
+
+Started GET "/install" for 153.229.197.147 at 2016-05-01 22:21:24 +0900
+Cannot render console from 153.229.197.147! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (1.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (No route matches [GET] "/install"):
+  actionpack (4.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:20:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.6) lib/action_dispatch/middleware/static.rb:120:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.6) lib/rails/engine.rb:518:in `call'
+  railties (4.2.6) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (68.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (38.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (161.7ms)
+
+
+Started GET "/" for 153.229.197.147 at 2016-05-01 22:21:32 +0900
+Cannot render console from 153.229.197.147! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 734ms (Views: 732.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/install" for 153.229.197.147 at 2016-05-01 22:21:38 +0900
+Cannot render console from 153.229.197.147! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IqXLA4vqrMNgW5rDYBF+StkuDMGt86zu2+3rpaQYznZAcOmFcfUYlPOx6IhCDuVDX9y53GX37h9lGPlsvBq9fg==", "ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "commit"=>"install"}
+Redirected to https://develop.ebisumart.com/test_takayama/admin_authorize.html?scope=item%20privacy%20system&response_type=code&redirect_uri=https://084d06e4.ngrok.io/auth?ebisu_no=test_takayama%26domain=develop.ebisumart.com&client_id=EBISU_INSTALL&state=a5ead75c48ff46860622b9bca25759a5
+Completed 302 Found in 3ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?ebisu_no=test_takayama&domain=develop.ebisumart.com&code=b8985835f73796dbce70babff35c4800a52&state=a5ead75c48ff46860622b9bca25759a5" for 153.229.197.147 at 2016-05-01 22:21:46 +0900
+Cannot render console from 153.229.197.147! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AuthController#index as HTML
+  Parameters: {"ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "code"=>"b8985835f73796dbce70babff35c4800a52", "state"=>"a5ead75c48ff46860622b9bca25759a5"}
+{"ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "code"=>"b8985835f73796dbce70babff35c4800a52", "state"=>"a5ead75c48ff46860622b9bca25759a5", "controller"=>"auth", "action"=>"index"}
+start logger
+{"access_token"=>"6de64b12d5ae5d44356fb44aa9f4c27da2", "refresh_token"=>"4f88c71f3871377e54c473e0cd6a146aa2", "shop_id"=>"TEST_TAKAYAMA", "expires_in"=>86400}
+end logger
+  [1m[35m (0.5ms)[0m  BEGIN
+  [1m[36mSQL (30.8ms)[0m  [1mINSERT INTO "app_clients" ("app_client_id", "refresh_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["app_client_id", 0], ["refresh_token", "4f88c71f3871377e54c473e0cd6a146aa2"], ["created_at", "2016-05-01 13:21:46.754740"], ["updated_at", "2016-05-01 13:21:46.754740"]]
+  [1m[35m (1.4ms)[0m  COMMIT
+  Rendered auth/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 598ms (Views: 145.3ms | ActiveRecord: 40.5ms)
+
+
+Started POST "/install" for 153.229.197.147 at 2016-05-01 22:24:02 +0900
+Cannot render console from 153.229.197.147! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IqXLA4vqrMNgW5rDYBF+StkuDMGt86zu2+3rpaQYznZAcOmFcfUYlPOx6IhCDuVDX9y53GX37h9lGPlsvBq9fg==", "ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "commit"=>"install"}
+Redirected to https://develop.ebisumart.com/test_takayama/admin_authorize.html?scope=item%20privacy%20system&response_type=code&redirect_uri=https://084d06e4.ngrok.io/auth?ebisu_no=test_takayama%26domain=develop.ebisumart.com&client_id=EBISU_INSTALL&state=1e4d9fe4f5cd593af1043cfa214a5ec9
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?ebisu_no=test_takayama&domain=develop.ebisumart.com&code=2f4b98b3b72fbbc41bd11f4e92da5f5ea53&state=1e4d9fe4f5cd593af1043cfa214a5ec9" for 153.229.197.147 at 2016-05-01 22:24:09 +0900
+Cannot render console from 153.229.197.147! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AuthController#index as HTML
+  Parameters: {"ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "code"=>"2f4b98b3b72fbbc41bd11f4e92da5f5ea53", "state"=>"1e4d9fe4f5cd593af1043cfa214a5ec9"}
+{"ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "code"=>"2f4b98b3b72fbbc41bd11f4e92da5f5ea53", "state"=>"1e4d9fe4f5cd593af1043cfa214a5ec9", "controller"=>"auth", "action"=>"index"}
+start logger
+{"access_token"=>"22b451a4131694d54b4b0fcde3a60323a3", "refresh_token"=>"5d40b22424eee9c48c95bb8c4c9e067da3", "shop_id"=>"TEST_TAKAYAMA", "expires_in"=>86400}
+end logger
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "app_clients" ("clinet_no", "refresh_token", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"  [["clinet_no", "TEST_TAKAYAMA"], ["refresh_token", "5d40b22424eee9c48c95bb8c4c9e067da3"], ["created_at", "2016-05-01 13:24:09.617939"], ["updated_at", "2016-05-01 13:24:09.617939"]]
+  [1m[36m (2.0ms)[0m  [1mCOMMIT[0m
+  Rendered auth/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 476ms (Views: 141.4ms | ActiveRecord: 7.9ms)
