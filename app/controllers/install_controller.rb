@@ -1,7 +1,14 @@
 class InstallController < ApplicationController
   
   def index
-    redirect_to "https://#{params['domain']}/#{params['ebisu_no']}/admin_authorize.html?scope=#{getScope}&response_type=code&redirect_uri=#{getRedirectUri}&client_id=EBISU_INSTALL&state=#{getStatus}"
+    state = getState
+    cookies[:state] = {value: state, secure: true, httponly: true}
+    redirect_to "https://#{params['domain']}/#{params['ebisu_no']}/admin_authorize.html" +
+      "?scope=#{getScope}" +
+      "&response_type=code" +
+      "&redirect_uri=#{getRedirectUri}" +
+      "&client_id=EBISU_INSTALL" +
+      "&state=#{state}"
   end
 
   private
@@ -11,10 +18,11 @@ class InstallController < ApplicationController
   end
   
   def getRedirectUri
-    "https://ebisu-install.herokuapp.com/auth"
+    "https://084d06e4.ngrok.io/auth?ebisu_no=#{params['ebisu_no']}%26domain=#{params['domain']}"
   end
   
-  def getStatus
-    
+  def getState
+    require 'securerandom'
+    SecureRandom.hex(16)
   end
 end

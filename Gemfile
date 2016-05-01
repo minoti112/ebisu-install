@@ -46,3 +46,7 @@ group :development do
 end
 
 gem 'rails_12factor', group: :production
+
+# for ebisumart API
+gem 'faraday', '~> 0.9.2'
+gem 'faraday_middleware', '~> 0.9.2'
