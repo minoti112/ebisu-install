@@ -19,7 +19,7 @@ class AuthController < ApplicationController
     # トークン取得
     client = Faraday.new(:url => "https://#{params['domain']}") do |faraday|
       faraday.request  :url_encoded
-      faraday.response :json
+      faraday.response :logger
       faraday.adapter  Faraday.default_adapter
       faraday.basic_auth 'EBISU_INSTALL', Rails.application.secrets.ebisu_app_password
     end
@@ -29,12 +29,13 @@ class AuthController < ApplicationController
       :redirect_uri => getRedirectUri,
       :client_id => :EBISU_INSTALL
     }
-    logger.debug(res.body)
+    body = JSON.parse(res.body)
+    logger.debug(body)
 
   end
 
   private
   def getRedirectUri
-    "https://084d06e4.ngrok.io/auth?ebisu_no=#{params['ebisu_no']}%26domain=#{params['domain']}"
+    "https://#{Rails.application.secrets.ebisu_app_host}/auth?ebisu_no=#{params['ebisu_no']}%26domain=#{params['domain']}"
   end
 end

@@ -3447,3 +3447,48 @@ Processing by AuthController#index as HTML
 {"error"=>"unauthorized_client"}
   Rendered auth/index.html.erb within layouts/application (0.1ms)
 Completed 200 OK in 665ms (Views: 329.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for 153.229.197.147 at 2016-05-01 19:07:11 +0900
+Cannot render console from 153.229.197.147! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started POST "/install" for 153.229.197.147 at 2016-05-01 19:07:13 +0900
+Cannot render console from 153.229.197.147! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rxr9nnalFTlfFNkF9sNNeHQqGt1DRb/aFBkpUQAbrRjNz98YjLqhbsz+q07U3NZx8tivwItB/Suq7DuYGBneEA==", "ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "commit"=>"install"}
+Redirected to https://develop.ebisumart.com/test_takayama/admin_authorize.html?scope=item%20privacy%20system&response_type=code&redirect_uri=https://084d06e4.ngrok.io/auth?ebisu_no=test_takayama%26domain=develop.ebisumart.com&client_id=EBISU_INSTALL&state=b79cac631a79e1ad10c93ca0eb10fd31
+Completed 302 Found in 45ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?ebisu_no=test_takayama&domain=develop.ebisumart.com&code=0956582c8cb5eb76ba38f46316899cbfa43&state=b79cac631a79e1ad10c93ca0eb10fd31" for 153.229.197.147 at 2016-05-01 19:07:23 +0900
+Cannot render console from 153.229.197.147! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AuthController#index as HTML
+  Parameters: {"ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "code"=>"0956582c8cb5eb76ba38f46316899cbfa43", "state"=>"b79cac631a79e1ad10c93ca0eb10fd31"}
+{"ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "code"=>"0956582c8cb5eb76ba38f46316899cbfa43", "state"=>"b79cac631a79e1ad10c93ca0eb10fd31", "controller"=>"auth", "action"=>"index"}
+{"error"=>"invalid_grant"}
+  Rendered auth/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 771ms (Views: 325.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/bootstrap.min.css.map" for 153.229.197.147 at 2016-05-01 19:17:13 +0900
+Cannot render console from 153.229.197.147! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/install" for 153.229.197.147 at 2016-05-01 19:17:14 +0900
+Cannot render console from 153.229.197.147! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by InstallController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rxr9nnalFTlfFNkF9sNNeHQqGt1DRb/aFBkpUQAbrRjNz98YjLqhbsz+q07U3NZx8tivwItB/Suq7DuYGBneEA==", "ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "commit"=>"install"}
+Redirected to https://develop.ebisumart.com/test_takayama/admin_authorize.html?scope=item%20privacy%20system&response_type=code&redirect_uri=https://084d06e4.ngrok.io/auth?ebisu_no=test_takayama%26domain=develop.ebisumart.com&client_id=EBISU_INSTALL&state=d8a615cdbb683e9532c542060da76faf
+Completed 302 Found in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/auth?ebisu_no=test_takayama&domain=develop.ebisumart.com&code=dbdf12a4dc2f304e8b1a211d4a312d59a44&state=d8a615cdbb683e9532c542060da76faf" for 153.229.197.147 at 2016-05-01 19:17:24 +0900
+Cannot render console from 153.229.197.147! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by AuthController#index as HTML
+  Parameters: {"ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "code"=>"dbdf12a4dc2f304e8b1a211d4a312d59a44", "state"=>"d8a615cdbb683e9532c542060da76faf"}
+{"ebisu_no"=>"test_takayama", "domain"=>"develop.ebisumart.com", "code"=>"dbdf12a4dc2f304e8b1a211d4a312d59a44", "state"=>"d8a615cdbb683e9532c542060da76faf", "controller"=>"auth", "action"=>"index"}
+{"error"=>"invalid_grant"}
+  Rendered auth/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 370ms (Views: 64.8ms | ActiveRecord: 0.0ms)

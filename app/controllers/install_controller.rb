@@ -18,7 +18,7 @@ class InstallController < ApplicationController
   end
   
   def getRedirectUri
-    "https://084d06e4.ngrok.io/auth?ebisu_no=#{params['ebisu_no']}%26domain=#{params['domain']}"
+    "https://#{Rails.application.secrets.ebisu_app_host}/auth?ebisu_no=#{params['ebisu_no']}%26domain=#{params['domain']}"
   end
   
   def getState
